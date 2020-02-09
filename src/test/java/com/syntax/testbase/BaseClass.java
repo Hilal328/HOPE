@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import com.syntax.utils.ConfigsReader;
+import com.syntax.utils.Constants;
 
 public class BaseClass {
 
@@ -16,26 +17,26 @@ public class BaseClass {
 	
 	public static void setUp() {
 			
-		ConfigsReader.readProperties("src/test/resources/configs/Configuration.properties");
+		ConfigsReader.readProperties(Constants.CONFIGURATION_FILEPATH);
 		
-		String browser = ConfigsReader.getProperty("browser");
+		String browser = ConfigsReader.getProperty("browser").toLowerCase();
 	
 		
-		if(browser.equalsIgnoreCase("chrome")) {
+		if(browser.equals("chrome")) {
 			if(OS_NAME.contains("Mac")) {
-				System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver");
+				System.setProperty("webdriver.chrome.driver", Constants.MAC_CHROME_DRIVER_PATH);
 				
 			}else if(OS_NAME.contains("Windows")){
-				System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver", Constants.WINDOWS_CHROME_DRIVER_PATH);
 			}
 			
 			driver = new ChromeDriver();
 		
-		} else if(browser.equalsIgnoreCase("firefox")) {
+		} else if(browser.equals("firefox")) {
 			if(OS_NAME.contains("Mac")) {
-				System.setProperty("webdriver.gecko.driver", "src/test/resources/drivers/geckodriver");
+				System.setProperty("webdriver.gecko.driver", Constants.MAC_GECKO_DRIVER_PATH);
 			}else if(OS_NAME.contains("Windows")) {
-				System.setProperty("webdriver.gecko.driver", "src/test/resources/drivers/geckodriver.exe");
+				System.setProperty("webdriver.gecko.driver", Constants.WINDOWS_GECKO_DRIVER_PATH);
 			}
 			
 			driver = new FirefoxDriver();

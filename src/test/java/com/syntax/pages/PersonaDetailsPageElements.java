@@ -41,8 +41,5 @@ public class PersonaDetailsPageElements {
 	
 	public PersonaDetailsPageElements() {
 		PageFactory.initElements(BaseClass.driver, this);
-	}
-
-	
-	
+	}	
 }

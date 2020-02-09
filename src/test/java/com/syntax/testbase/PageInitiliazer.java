@@ -1,16 +1,15 @@
 package com.syntax.testbase;
 
-
-import com.hrms.pages.ContactDetailsPageElements;
-import com.hrms.pages.DashboardPageElements;
-import com.hrms.pages.DependentsPageElements;
-import com.hrms.pages.EmergencyPageElements;
-import com.hrms.pages.EmployeeListPageElements;
-import com.hrms.pages.JobPageElements;
-import com.hrms.pages.LoginPagesElements;
-import com.hrms.pages.PersonaDetailsPageElements;
-import com.hrms.pages.QualificationsPageElements;
-import com.hrms.pages.SalaryPageElements;
+import com.syntax.pages.ContactDetailsPageElements;
+import com.syntax.pages.DashboardPageElements;
+import com.syntax.pages.DependentsPageElements;
+import com.syntax.pages.EmergencyPageElements;
+import com.syntax.pages.EmployeeListPageElements;
+import com.syntax.pages.JobPageElements;
+import com.syntax.pages.LoginPagesElements;
+import com.syntax.pages.PersonaDetailsPageElements;
+import com.syntax.pages.QualificationsPageElements;
+import com.syntax.pages.SalaryPageElements;
 
 public class PageInitiliazer extends BaseClass {
 	protected static LoginPagesElements login;

@@ -19,12 +19,13 @@ package com.syntax.utils;
 	import org.openqa.selenium.support.ui.Select;
 	import org.openqa.selenium.support.ui.WebDriverWait;
 
-	import com.syntax.testbase.BaseClass;
+
+import com.syntax.testbase.PageInitiliazer;
 
 	
 	
 	// after page initilazer class created it will extend pageInitilazer
-	public class CommonMethods extends BaseClass{
+	public class CommonMethods extends PageInitiliazer{
 	
 
 		/**

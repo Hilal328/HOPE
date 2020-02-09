@@ -4,8 +4,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.hrms.testbase.BaseClass;
-import com.hrms.utils.CommonMethods;
+import com.syntax.testbase.BaseClass;
+import com.syntax.utils.CommonMethods;
+
 
 public class LoginPagesElements extends CommonMethods {
 

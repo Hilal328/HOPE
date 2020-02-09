@@ -24,6 +24,18 @@ public class DependentsPageElements {
 	@FindBy(xpath = "//input[@id='btnSaveDependent']")
 	public WebElement saveBtn;
 	
+	@FindBy(id = "btnAddAttachment")
+	public WebElement addBtnAttach;
+	
+	@FindBy(id = "ufile")
+	public WebElement chooseFile;
+	
+	@FindBy(id = "btnSaveAttachment")
+	public WebElement uploadFile;
+	
+	@FindBy(xpath = "//table[@id='dependent_list']/tbody/tr/td[2]")
+	public WebElement addedDepend;
+	
 	public DependentsPageElements() {
 		PageFactory.initElements(BaseClass.driver, this);
 	}

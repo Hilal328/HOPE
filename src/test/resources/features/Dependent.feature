@@ -8,7 +8,7 @@ Feature: Login
     
 
  
-@test
+@regression
   Scenario: Adding  dependents to an existing employee 
    
    When I entered an exist employee id
@@ -22,6 +22,7 @@ Feature: Login
       | Berrin     | Child          | 2010-08-14 |
       | Ali        | Child          | 1987-02-13 |
      
+ And I uploaded file for the dependents
   And I see the dependents added.
    
    

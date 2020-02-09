@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 		,dryRun=false
 		,plugin= {"pretty", "html:target/html/cucumber-default", "json:target/cucumber.json", "rerun:target/failed.txt"}
 		,monochrome=true
-		,tags= {"@test"}
+		,tags= {"@smoke"}
 		)
 
 public class SmokeRunner {

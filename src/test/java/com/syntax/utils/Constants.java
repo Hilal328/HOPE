@@ -41,6 +41,9 @@ public class Constants {
 	public static final String USER_NAME=System.getProperty("user.name");
 	
 	public static final String SCREENSHOTS_FILEPATH=System.getProperty("user.dir")+"/target/screenshots/";
+	
+	public static final String ATTACH_FILE_PATH = System.getProperty("user.dir")
+			+ "/src/test/resources/testimage/guvercin.jpg";
 }
 //	public static final String SYNTAX_PRACTICE_URL = "http://jiravm.centralus.cloudapp.azure.com:8081/";
 //	

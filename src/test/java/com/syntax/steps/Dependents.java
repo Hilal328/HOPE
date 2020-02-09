@@ -3,13 +3,18 @@ package com.syntax.steps;
 import java.util.List;
 import java.util.Map;
 
+import org.junit.Assert;
+
 import com.syntax.utils.CommonMethods;
 import com.syntax.utils.ConfigsReader;
+import com.syntax.utils.Constants;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import io.cucumber.datatable.DataTable;
+
+
 
 
 public class Dependents extends CommonMethods {
@@ -60,8 +65,8 @@ public void i_click_add_button_on_Dependents_page() {
 
 
 
-	@Then("I entered Name  , Relationship and DateOfBirth  and saved them.")
-	public void i_entered_Name_Relationship_and_DateOfBirth_and_saved_them(DataTable dataTable) throws InterruptedException {
+@Then("I entered Name  , Relationship and DateOfBirth  and saved them.")
+public void i_entered_Name_Relationship_and_DateOfBirth_and_saved_them(DataTable dataTable) throws InterruptedException {
 		List<Map<String, String>> empDetailList=dataTable.asMaps();
 		
 		for(Map<String, String> map:empDetailList) {
@@ -72,19 +77,29 @@ public void i_click_add_button_on_Dependents_page() {
 		    selectDdValue(depend.relationships,map.get("Relationship"));
 		    
 		    sendText(depend.dateOfBirth,map.get("DateOfBirth"));
-		    jsClick(depend.saveBtn);
+		    
 		    Thread.sleep(3000);
+		    jsClick(depend.saveBtn);
+		    	    
 		    jsClick(depend.addButton);
 		    Thread.sleep(3000);
 		   
 		}
-		 
+			 
 	}
-
+@Then("I uploaded file for the dependents")
+public void i_uploaded_file_for_the_dependents() throws InterruptedException {
+		 jsClick(depend.addBtnAttach);
+		    depend.chooseFile.sendKeys(Constants.ATTACH_FILE_PATH);
+		    Thread.sleep(3000);
+		    
+		    jsClick(depend.uploadFile);
+	}
 
 @Then("I see the dependents added.")
 public void i_see_the_dependents_added() {
-    System.out.println("succes");
+  boolean displayedd=depend.addedDepend.isDisplayed();
+  Assert.assertTrue(displayedd);
 }
 
 

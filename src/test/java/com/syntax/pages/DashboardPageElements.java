@@ -12,7 +12,8 @@ import com.syntax.utils.CommonMethods;
 
 public class DashboardPageElements extends CommonMethods {
 	
-
+	@FindBy(id="welcome")
+	public WebElement welcomeText;
 
 	//PIM Menu
 	@FindBy(linkText="PIM")

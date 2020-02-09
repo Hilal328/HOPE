@@ -21,8 +21,8 @@ public class EmployeeListPageElements extends CommonMethods {
 	@FindBy(id="searchBtn")
 	public WebElement searchBtn;
 	
-	@FindBy(xpath="//table[@id='resultTable']/tbody/tr/TD")
-	public List<WebElement> tableCells;
+	@FindBy(xpath="//table[@id='resultTable']/tbody/tr/td[2]/a")
+	public WebElement idCell;
 	
 		public EmployeeListPageElements() {
 		PageFactory.initElements(BaseClass.driver, this);
@@ -35,14 +35,8 @@ public class EmployeeListPageElements extends CommonMethods {
 		
 	}
 	
-	public void selectEmployee(String employeeName) {
-		int size=tableCells.size();
-		for(int i=0; i<size;i++) {
-			if(tableCells.get(i).getText().equals(employeeName)) {
-				tableCells.get(i).click();
-			}
-		}
-	}
+	
+
 	
 	
 	

@@ -1,5 +1,6 @@
 package com.syntax.pages;
 
+import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -36,5 +37,7 @@ public class LoginPagesElements extends CommonMethods {
 		sendText(username,uid);
 		sendText(password,pwd);
 		click(loginBtn);
+		boolean welcomeText=dashboard.welcomeText.isDisplayed();
+	     Assert.assertTrue(welcomeText);
 	}
 }

@@ -13,6 +13,9 @@ public class PersonaDetailsPageElements extends CommonMethods{
 	@FindBy(xpath="//a[text()='Dependents']")
 	public WebElement dependents;
 	
+	@FindBy(id="personal_txtEmployeeId")
+	public WebElement empid;
+	
 	@FindBy(xpath="//a[text()='Contact Details']")
 	public WebElement contactDetails;
 	

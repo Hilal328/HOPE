@@ -1,5 +1,6 @@
 package com.syntax.testbase;
 
+import com.syntax.pages.AddEmployeePageWebElements;
 import com.syntax.pages.ContactDetailsPageElements;
 import com.syntax.pages.DashboardPageElements;
 import com.syntax.pages.DependentsPageElements;
@@ -22,6 +23,7 @@ public class PageInitiliazer extends BaseClass {
 	protected static JobPageElements job;
 	protected static QualificationsPageElements qualification;
 	protected static SalaryPageElements salary;
+	protected static AddEmployeePageWebElements addEmp;
 	public static void initializeAllPage() {
 
 		login = new LoginPagesElements();
@@ -34,5 +36,6 @@ public class PageInitiliazer extends BaseClass {
 		job=new JobPageElements();
 		qualification=new QualificationsPageElements();
 		salary=new SalaryPageElements();
+		addEmp=new AddEmployeePageWebElements();
 	}
 }

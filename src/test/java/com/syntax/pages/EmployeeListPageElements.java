@@ -1,7 +1,5 @@
 package com.syntax.pages;
 
-import java.util.List;
-
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -24,16 +22,29 @@ public class EmployeeListPageElements extends CommonMethods {
 	@FindBy(xpath="//table[@id='resultTable']/tbody/tr/td[2]/a")
 	public WebElement idCell;
 	
-		public EmployeeListPageElements() {
-		PageFactory.initElements(BaseClass.driver, this);
-	}
+	@FindBy(id="btnDelete")
+	public WebElement deleteBtn;
 	
-	public void serchByName(String empName) {
+	@FindBy(id="dialogDeleteBtn")
+	public WebElement deleteConfirmBtn;
+	
+	@FindBy(css="input.btn.cancel")
+	public WebElement cancelDeleteBtn;
+	
+	@FindBy(css="input[id^=ohrmList_chkSelectRecord]")
+	public WebElement empSelectBox;
+	
+		public void serchByName(String empName) {
 		
 		sendText(name,empName);
 		jsClick(searchBtn);
 		
 	}
+		public EmployeeListPageElements() {
+		PageFactory.initElements(BaseClass.driver, this);
+	}
+	
+
 	
 	
 

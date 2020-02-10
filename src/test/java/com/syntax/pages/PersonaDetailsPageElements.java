@@ -5,9 +5,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.syntax.testbase.BaseClass;
+import com.syntax.utils.CommonMethods;
 
 
-public class PersonaDetailsPageElements {
+public class PersonaDetailsPageElements extends CommonMethods{
 	
 	@FindBy(xpath="//a[text()='Dependents']")
 	public WebElement dependents;
@@ -38,6 +39,23 @@ public class PersonaDetailsPageElements {
 	
 	@FindBy(xpath="//a[text()='Memberships']")
 	public WebElement memberships;
+	
+	// PIM Menu
+	@FindBy(linkText = "PIM")
+	public static WebElement pim;
+	// employee list
+	@FindBy(linkText = "Employee List")
+	public static WebElement employeeList;
+
+	// addEmployee
+
+	@FindBy(id = "menu_pim_addEmployee")
+	public WebElement addEmpBtn;
+
+	public void navigateToEmployeeList() {
+		jsClick(pim);
+		jsClick(employeeList);
+	}
 	
 	public PersonaDetailsPageElements() {
 		PageFactory.initElements(BaseClass.driver, this);

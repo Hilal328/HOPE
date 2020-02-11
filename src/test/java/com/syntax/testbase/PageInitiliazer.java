@@ -6,7 +6,6 @@ import com.syntax.pages.DashboardPageElements;
 import com.syntax.pages.DependentsPageElements;
 import com.syntax.pages.EmergencyPageElements;
 import com.syntax.pages.EmployeeListPageElements;
-import com.syntax.pages.JobPageElements;
 import com.syntax.pages.LoginPagesElements;
 import com.syntax.pages.PersonaDetailsPageElements;
 import com.syntax.pages.QualificationsPageElements;
@@ -20,7 +19,6 @@ public class PageInitiliazer extends BaseClass {
 	protected static ContactDetailsPageElements contact;
 	protected static EmergencyPageElements emergency;
 	protected static DependentsPageElements depend;
-	protected static JobPageElements job;
 	protected static QualificationsPageElements qualification;
 	protected static SalaryPageElements salary;
 	protected static AddEmployeePageWebElements addEmp;
@@ -33,7 +31,6 @@ public class PageInitiliazer extends BaseClass {
 		contact=new ContactDetailsPageElements();
 		emergency=new  EmergencyPageElements();
 		depend =new  DependentsPageElements();
-		job=new JobPageElements();
 		qualification=new QualificationsPageElements();
 		salary=new SalaryPageElements();
 		addEmp=new AddEmployeePageWebElements();

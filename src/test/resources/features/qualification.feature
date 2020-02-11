@@ -6,7 +6,7 @@ Feature: Add employee qualification
       | FirstName | LastName |
       | Ataturk   | Gazi     |
       | Ismet     | Inonu    |
-      | Celal     | Bayar    |
+      | Celal     | Bayari   |
     And I navigated to Emplooye list
 
   @regression

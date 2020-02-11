@@ -45,6 +45,9 @@ public class PersonaDetailsPageElements extends CommonMethods{
 	@FindBy(xpath="//a[text()='Memberships']")
 	public WebElement memberships;
 	
+	@FindBy(id = "empPic")
+	public WebElement empPicture;
+	
 	// PIM Menu
 	@FindBy(linkText = "PIM")
 	public static WebElement pim;

@@ -62,19 +62,19 @@ public class AddEmployeeDependant_Scenario_Outline extends CommonMethods {
 		jsClick(depend.addButton);
 	}
 
-	@Then("I delete {string} {string} from Employee List")
-	public void i_delete_from_Employee_List(String string, String string2) throws InterruptedException {
-		Thread.sleep(1000);
-		depend.navigateToEmployeeList();
-		Thread.sleep(1000);
-		String name = string+" " + string2;
-		sendText(emplist.name, name);
-		Thread.sleep(2000);
-		jsClick(emplist.searchBtn);
-		jsClick(emplist.empSelectBox);
-		jsClick(emplist.deleteBtn);
-		jsClick(emplist.deleteConfirmBtn);
-	}
+//	@Then("I delete {string} {string} from Employee List")
+//	public void i_delete_from_Employee_List(String string, String string2) throws InterruptedException {
+//		Thread.sleep(1000);
+//		depend.navigateToEmployeeList();
+//		Thread.sleep(1000);
+//		String name = string+" " + string2;
+//		sendText(emplist.name, name);
+//		Thread.sleep(2000);
+//		jsClick(emplist.searchBtn);
+//		jsClick(emplist.empSelectBox);
+//		jsClick(emplist.deleteBtn);
+//		jsClick(emplist.deleteConfirmBtn);
+//	}
 
 	@Then("I delete added employees from Employee List")
 	public void i_delete_added_employees_from_Employee_List(DataTable dataTable) throws InterruptedException {

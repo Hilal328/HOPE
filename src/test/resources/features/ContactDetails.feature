@@ -1,4 +1,4 @@
-@sprint1 @Login
+@sprint1 @regression
 Feature: ContactDetails
 
 	Background: 
@@ -10,7 +10,7 @@ Feature: ContactDetails
       | Alex      | Small    |
     And I navigated to Emplooye list
   
-  @smoke @hilal
+  @regression
 	Scenario: Changes employee Contact Details
   When I entered an exist employee name
       | FirstName | LastName |
@@ -24,8 +24,8 @@ Feature: ContactDetails
       | 123 Sky Dr     | Sky Apt        | Houston | TX    | 77469 | United States | 123-4567  | 123-5678 | 123-8520  | Hilal123@gmail.com | birisi23@hotmail.com |
     Then I click Save
     And I see Employee Contact details succesfully edited
-		Then I delete added employees from Employee List
-      | FirstName | LastName |
-      | Monica    | Smith    |
-      | Jessica   | Kirkland |
-      | Alex      | Small    |
+#		Then I delete added employees from Employee List
+      #| FirstName | LastName |
+      #| Monica    | Smith    |
+      #| Jessica   | Kirkland |
+      #| Alex      | Small    |

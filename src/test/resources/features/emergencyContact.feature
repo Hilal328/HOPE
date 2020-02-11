@@ -1,4 +1,4 @@
-@sprint1
+@sprint1 @regression
 Feature: addingEmergencyContact
 
     Background: 
@@ -8,7 +8,7 @@ Feature: addingEmergencyContact
     And I have clicked Save button
     Then I will see Personal Details
 
-  @smoke
+  @regression
   Scenario: Adding employee emergency contact details
     And I navigate to emergency contact page
     Then I enter emergency contact detail

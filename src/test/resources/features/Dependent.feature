@@ -1,4 +1,4 @@
-@sprint1 @login
+@sprint1 @regression
 Feature: AddEmployeeDependant_DataTable
 
   Background: 
@@ -8,7 +8,7 @@ Feature: AddEmployeeDependant_DataTable
       | Monica    | Smith    |
     And I navigated to Emplooye list
 
-  @zeynep
+  @regression
   Scenario: Adding  dependents to an existing employee
     When I entered an exist employee name
       | FirstName | LastName |
@@ -24,6 +24,6 @@ Feature: AddEmployeeDependant_DataTable
       | Ali     | Child        | 1987-02-13  |
     And I uploaded file for the dependents
     And I see the dependents added.
-    And I delete added employees from Employee List
-      | FirstName | LastName |
-      | Monica    | Smith    |
+    #And I delete added employees from Employee List
+      #| FirstName | LastName |
+      #| Monica    | Smith    |

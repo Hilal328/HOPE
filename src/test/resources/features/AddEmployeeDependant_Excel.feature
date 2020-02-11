@@ -1,4 +1,4 @@
-@Hope
+@sprint1 @regression
 Feature: AddEmployeeDependant_Scenario_Outline
 
   Scenario Outline: As an admin I should be able to add employee's dependents
@@ -13,10 +13,10 @@ Feature: AddEmployeeDependant_Scenario_Outline
     And I enter dependant "<Name2>", "<Relationship2>", "<DateOfBirth2>" and click save button
     And I enter dependant "<Name3>", "<Relationship3>", "<DateOfBirth3>" and click save button
     Then I see the dependents added.
-    And I delete "<FirstName>" "<LastName>" from Employee List
+    #And I delete "<FirstName>" "<LastName>" from Employee List
 
     Examples: 
       | FirstName | LastName | Name1  | Relationship1 | DateOfBirth1 | Name2   | Relationship2 | DateOfBirth2 | Name3   | Relationship3 | DateOfBirth3 |
       | Michael   | Owen     | Brian  | Child         | 2002-06-06   | Amanda  | Other         | 2003-03-03   | Steven  | Child         | 2004-04-04   |
-      | George    | Hagi     | Ianis  | Child         | 2000-10-10   | Elena   | Child         | 2001-01-01   | Preslov | Child         | 2012-12-12   |
-      | Sofian    | Feghuili | Yousef | Child         | 2015-10-15   | Yassine | Child         | 2017-01-31   | Omer    | Child         | 2019-07-19   |
+      #| George    | Hagi     | Ianis  | Child         | 2000-10-10   | Elena   | Child         | 2001-01-01   | Preslov | Child         | 2012-12-12   |
+      #| Sofian    | Feghuili | Yousef | Child         | 2015-10-15   | Yassine | Child         | 2017-01-31   | Omer    | Child         | 2019-07-19   |

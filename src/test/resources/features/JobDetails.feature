@@ -1,4 +1,4 @@
-@sprint1 @JobDetail
+@sprint1 @regression
 Feature: jobDetail
 
   Background: 
@@ -9,7 +9,7 @@ Feature: jobDetail
       | Jessica   | Kirkland |
       | Alex      | Small    |
     And I navigated to Emplooye list
-  @burhan
+  @regression
   Scenario: Employee Add Job Details
   When I entered an exist employee name
       | FirstName | LastName |
@@ -22,8 +22,8 @@ Feature: jobDetail
       | Tester   | Employee  | Professionals |     2003 | Feb       |       2 |
     And i click job save button
     Then i confirm saved jobDetail
-    And I delete added employees from Employee List
-      | FirstName | LastName |
-      | Monica    | Smith    |
-      | Jessica   | Kirkland |
-      | Alex      | Small    |
+    #And I delete added employees from Employee List
+      #| FirstName | LastName |
+      #| Monica    | Smith    |
+      #| Jessica   | Kirkland |
+      #| Alex      | Small    |

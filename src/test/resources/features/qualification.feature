@@ -1,3 +1,4 @@
+@sprint1 @regression
 Feature: Add employee qualification
 
   Background: 

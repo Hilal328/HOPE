@@ -59,7 +59,7 @@
 				<version>3.0.0-M4</version>
 				<configuration>
 					<includes>
-						<include>**/*ContactRunner.java</include>
+						<include>**/*RegressionRunner.java</include>
 					</includes>
 					<testFailureIgnore>true</testFailureIgnore>
 				</configuration>
@@ -77,7 +77,7 @@
 							<goal>generate</goal>
 						</goals>
 						<configuration>
-							<projectName>HrmsCucumberFramework</projectName>
+							<projectName>HOPE</projectName>
 							<!-- output directory for the generated report -->
 							<outputDirectory>${project.build.directory}</outputDirectory>
 							<!-- optional, defaults to outputDirectory if not specified -->

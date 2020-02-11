@@ -1,3 +1,4 @@
+@sprint1 @regression
 Feature: US 18804: As an admin I should be able to add employee's salary components
   
 
@@ -5,7 +6,7 @@ Feature: US 18804: As an admin I should be able to add employee's salary compone
     Given I enter valid username and valid password
     When I click login button
     And I delete the employee name
-	@smoke
+	@regression
   Scenario: Assigned Salary Components
     
     Then I navigated to Add employee

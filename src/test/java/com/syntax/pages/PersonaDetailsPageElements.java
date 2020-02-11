@@ -139,6 +139,8 @@ public class PersonaDetailsPageElements extends CommonMethods{
 	@FindBy(id="ufile")
 	public WebElement chooseFile;
 	
+	@FindBy(xpath="//ul[@id='sidenav']/li[6]/a")
+	public WebElement JobBtn;
 	
 	@FindBy(id="txtAttDesc")
 	public WebElement comment;

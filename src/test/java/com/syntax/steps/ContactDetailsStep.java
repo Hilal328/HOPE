@@ -6,43 +6,28 @@ import java.util.Map;
 import org.junit.Assert;
 
 import com.syntax.utils.CommonMethods;
+import com.syntax.utils.ConfigsReader;
 
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import io.cucumber.datatable.DataTable;
 
 
 public class ContactDetailsStep extends CommonMethods {
-	@When("I add firstName, middleName and last name")
-	public void i_add_firstName_middleName_and_last_name() {
-		sendText(addEmp.firstName, "Alex");
-		sendText(addEmp.middleName,  "De");
-		sendText(addEmp.lastName,  "Souza");   
-	}
-
-	@Then("I click Save button")
-	public void i_click_Save_button() {
-	    click(addEmp.saveBtn);
-	}
-
-	@Then("I see Personal Details")
-	public void i_see_Personal_Details() {
-	    boolean displayed=pdetails.empPicture.isDisplayed();
-	   Assert.assertTrue("Employee picture is NOT displayed", displayed);
-	}
-
-	@When("I click Contact Details")
+	
+	@And("I click Contact Details")
 	public void i_click_Contact_Details() {
-		click(contact.contactDetail);
-		
+		click(contact.contactDetail);	
 	}
-
+	
 	@Then("I click edit")
 	public void i_click_edit() {
 		click(contact.editSaveBtn);  
 	}
-
-	@Then("I am able to modify Contact Details")
+	
+	@And("I am able to modify Contact Details")
 	public void i_am_able_to_modify_Contact_Details(DataTable data) {
 	    List<Map<String,String>> contactDetails=data.asMaps();
 	    for(Map<String, String>contactDtl:contactDetails) {
@@ -61,11 +46,14 @@ public class ContactDetailsStep extends CommonMethods {
 	    }
 	}
 
-	@When("I see Employee Contact details  succesfully edited")
+	@Then("I click Save")
+	public void i_click_Save() {
+	    click(addEmp.saveBtn);
+	}
+	
+	@And("I see Employee Contact details succesfully edited")
 	public void i_see_Employee_Contact_details_succesfully_edited() {
 	    boolean displayedPic=contact.empPicture.isDisplayed();
 	    Assert.assertTrue("Employee picture is NOT displayed", displayedPic);
 	}
-
-
 }

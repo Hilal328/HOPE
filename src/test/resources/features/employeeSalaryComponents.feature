@@ -4,8 +4,10 @@ Feature: US 18804: As an admin I should be able to add employee's salary compone
   Background: 
     Given I enter valid username and valid password
     When I click login button
+    And I delete the employee name
 	@smoke
   Scenario: Assigned Salary Components
+    
     Then I navigated to Add employee
     And I send employee information
     Then I click AddEmployee save button

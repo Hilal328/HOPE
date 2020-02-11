@@ -26,6 +26,15 @@ public class EmployeeSalarySteps extends CommonMethods{
 	public void i_click_login_button() {
 		click(login.loginBtn);
 	}
+	@When("I delete the employee name")
+	public void i_delete_the_employee_name() {
+		depend.navigateToEmployeeList();
+		sendText(emplist.name,"Mathew");
+		jsClick(emplist.searchBtn);
+		jsClick(emplist.empSelectBox);
+		jsClick(emplist.deleteBtn);
+		jsClick(emplist.deleteConfirmBtn);
+	}
 
 	@Then("I navigated to Add employee")
 	public void i_navigated_to_Add_employee() throws InterruptedException {

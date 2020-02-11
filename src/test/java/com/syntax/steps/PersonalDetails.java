@@ -46,7 +46,7 @@ public class PersonalDetails extends CommonMethods{
 	@Then("I see employee details modified")
 	public void i_see_employee_details_modified() {
 	   String name = pdetails.profileName.getText();
-	   Assert.assertEquals("Names do not match","Monica Jane Smith" , name);
+	   Assert.assertEquals("Names do not match","Kristen Jane Bell" , name);
 	}
 
 	@Then("I add attachment and write comment")

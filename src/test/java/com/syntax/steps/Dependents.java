@@ -28,7 +28,7 @@ public class Dependents extends CommonMethods {
 	}
 
 	@When("I entered an exist employee name")
-	public void i_entered_an_exist_employee_name(io.cucumber.datatable.DataTable dataTable)
+	public void i_entered_an_exist_employee_name(DataTable dataTable)
 			throws InterruptedException {
 		List<Map<String, String>> empinfo = dataTable.asMaps();
 

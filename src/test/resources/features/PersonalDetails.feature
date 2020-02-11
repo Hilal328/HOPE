@@ -5,14 +5,14 @@ Feature: Modify employee personal details
     Given I looged succesfully Hrms web page.
     And I added employees
       | FirstName | LastName |
-      | Monica    | Smith    |
+      | Kristen   | Bell   |
     And I navigated to Emplooye list
 
   @regression
   Scenario: As an admin I should be able to modify employee's personal details
     When I entered an exist employee name
       | FirstName | LastName |
-      | Monica    | Smith    |
+      | Kristen   | Bell    |
     And I clicked search button on employee list page
     And I selected the employee on the table
     And I modify employee's personal deatils
@@ -22,4 +22,4 @@ Feature: Modify employee personal details
     And I add attachment and write comment
     #And I delete added employees from Employee List
       #| FirstName | LastName |
-      #| Monica    | Smith    |
+      #| Kristen    | Bell   |

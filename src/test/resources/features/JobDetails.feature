@@ -5,15 +5,16 @@ Feature: jobDetail
     Given I looged succesfully Hrms web page.
     And I added employees
       | FirstName | LastName |
-      | Monica    | Smith    |
-      | Jessica   | Kirkland |
-      | Alex      | Small    |
+      | Amanda    | Simpsons |
+      | Julia     | Stiles   |
+      | Alexandra | Taylor   |
     And I navigated to Emplooye list
+
   @regression
   Scenario: Employee Add Job Details
-  When I entered an exist employee name
+    When I entered an exist employee name
       | FirstName | LastName |
-      | Monica    | Smith    |
+      | Amanda    | Simpsons |
     And I clicked search button on employee list page
     And I selected the employee on the table
     And i navigate to jobDetail page
@@ -24,6 +25,6 @@ Feature: jobDetail
     Then i confirm saved jobDetail
     #And I delete added employees from Employee List
       #| FirstName | LastName |
-      #| Monica    | Smith    |
-      #| Jessica   | Kirkland |
-      #| Alex      | Small    |
+      #| Amanda    | Simpsons |
+      #| Julia     | Stiles   |
+      #| Alexandra | Taylor   |

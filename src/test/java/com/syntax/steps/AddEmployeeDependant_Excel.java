@@ -11,7 +11,6 @@ import cucumber.api.java.en.When;
 import io.cucumber.datatable.DataTable;
 
 public class AddEmployeeDependant_Excel extends CommonMethods {
-	
 
 	@Given("I added employees")
 	public void i_added_employees(DataTable dataTable) throws InterruptedException {
@@ -70,14 +69,14 @@ public class AddEmployeeDependant_Excel extends CommonMethods {
 
 	@Then("I delete added employees from Employee List")
 	public void i_delete_added_employees_from_Employee_List(DataTable dataTable) throws InterruptedException {
-		
+
 		pdetails.navigateToEmployeeList();
-		
+
 		List<Map<String, String>> empinfo = dataTable.asMaps();
-		
+
 		for (Map<String, String> map : empinfo) {
 			waitForClickability(emplist.name);
-			String name=map.get("FirstName")+" "+map.get("LastName");
+			String name = map.get("FirstName") + " " + map.get("LastName");
 			sendText(emplist.name, name);
 			jsClick(emplist.searchBtn);
 			jsClick(emplist.empSelectBox);

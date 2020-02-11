@@ -8,9 +8,38 @@ import org.junit.Assert;
 import com.syntax.utils.CommonMethods;
 import cucumber.api.java.en.Then;
 import io.cucumber.datatable.DataTable;
+import io.cucumber.java.en.Given;
 
 public class EmergencyContactSteps extends CommonMethods{
 	
+	@Given("I am logged into HRMS")
+	public void i_am_logged_into_HRMS() {
+	    login.login("Admin", "Syntax@123");
+	}
+
+	@Given("I navigated to Add Employee Page")
+	public void i_navigated_to_Add_Employee_Page() {
+	   dashboard.navigateToAddEmployee();
+	}
+
+	@Given("I add firstName, middleName and last name")
+	public void i_add_firstName_middleName_and_last_name() {
+	  sendText(addEmp.firstName, "Orhan");
+	  sendText(addEmp.middleName, "Gencebay");
+	  sendText(addEmp.lastName, "abi");
+	}
+
+	@Given("I click Save button")
+	public void i_click_Save_button() {
+	 click(addEmp.saveBtn);
+	}
+
+	@Then("I will see Personal Details")
+	public void i_will_see_Personal_Details() {
+	   boolean displayed=pdetails.empPicture.isDisplayed();
+	 Assert.assertTrue("Employee pic is not displayed", displayed);
+	}
+
 
 	@Then("I navigate to emergency contact page")
 	public void i_navigate_to_emergency_contact_page() throws InterruptedException {

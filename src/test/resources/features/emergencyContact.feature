@@ -1,11 +1,11 @@
-@sprint1 @emergencyContact
+@sprint1
 Feature: addingEmergencyContact
 
     Background: 
     Given I am logged into HRMS
     And I navigated to Add Employee Page
-    And I add firstName, middleName and last name
-    And I click Save button
+    And I have added firstName, middleName and last name
+    And I have clicked Save button
     Then I will see Personal Details
 
   @smoke

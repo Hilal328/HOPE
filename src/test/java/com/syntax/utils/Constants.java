@@ -44,9 +44,17 @@ public class Constants {
 	
 	public static final String ATTACH_FILE_PATH = System.getProperty("user.dir")
 			+ "/src/test/resources/testimage/guvercin.jpg";
+
 	
 	public static final String ATTACH_FILE_PATH_SALARY = System.getProperty("user.dir")
 			+ "/src/test/resources/testimage/SalaryTestCaseFile.docx";
+
+	public static final String EMPLOYEE_PIC_FILE_PATH = System.getProperty("user.dir")
+			+ "/src/test/resources/testimage/employee.jpeg";
+	public static final String ADD_ATTACHMENT_FILE_PATH =System.getProperty("user.dir")
+			+ "/src/test/resources/testimage/TestAttachment.txt"; 
+
+
 }
 //	public static final String SYNTAX_PRACTICE_URL = "http://jiravm.centralus.cloudapp.azure.com:8081/";
 //	

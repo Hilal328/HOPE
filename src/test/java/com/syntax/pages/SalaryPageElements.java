@@ -56,6 +56,7 @@ public class SalaryPageElements {
 	@FindBy (id="directdeposit_account_type")
 	public WebElement accountType;
 	
+	
 	@FindBy (id="directdeposit_routing_num")
 	public WebElement routingNum;
 	

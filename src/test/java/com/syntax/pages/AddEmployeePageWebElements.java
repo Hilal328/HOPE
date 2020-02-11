@@ -4,11 +4,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.syntax.testbase.BaseClass;
+import com.syntax.utils.CommonMethods;
 
 
-public class AddEmployeePageWebElements extends BaseClass{
+public class AddEmployeePageWebElements extends CommonMethods{
 
+	
 	@FindBy(id="firstName")
 	public WebElement firstName;
 	
@@ -42,10 +43,21 @@ public class AddEmployeePageWebElements extends BaseClass{
 	@FindBy(xpath="//span[@for='lastName']")
 	public WebElement lastNameError;
 	
+	// PIM Menu
+	@FindBy(linkText = "PIM")
+	public static WebElement pim;
+	// employee list
+	@FindBy(linkText = "Employee List")
+	public static WebElement employeeList;
+
 	
 	public AddEmployeePageWebElements() {
 		PageFactory.initElements(driver, this);
 	}
 	
-	
+	public void navigateToEmloyeeList() {
+		jsClick(pim);
+		jsClick(employeeList);
+		
+	}
 }

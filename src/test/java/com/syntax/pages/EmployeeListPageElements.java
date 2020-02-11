@@ -12,6 +12,9 @@ public class EmployeeListPageElements extends CommonMethods {
 
 	@FindBy(id="empsearch_employee_name_empName")
 	public WebElement name;
+	 	 
+	@FindBy(id = " //div[@class='ac_results']/ul/li")
+	public WebElement selectSrchname;
 	
 	@FindBy(id="empsearch_id")
 	public WebElement id;

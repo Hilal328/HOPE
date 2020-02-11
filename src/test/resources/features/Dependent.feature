@@ -1,5 +1,5 @@
 @sprint1 @login
-Feature: Login
+Feature: AddEmployeeDependant_DataTable
 
   Background: 
     Given I looged succesfully Hrms web page.

@@ -24,7 +24,7 @@ public class Dependents extends CommonMethods {
 
 	@Given("I navigated to Emplooye list")
 	public void i_navigated_to_Emplooye_list() {
-		addEmp.navigateToEmloyeeList();
+		addEmp.navigateToEmployeeList();
 	}
 
 	@When("I entered an exist employee name")

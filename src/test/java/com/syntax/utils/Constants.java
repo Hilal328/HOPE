@@ -30,6 +30,8 @@ public class Constants {
 
 	public static final String CONFIGURATION_FILEPATH = System.getProperty("user.dir")
 			+ "/src/test/resources/configs/Configuration.properties";
+	public static final String ATTACHED_FILE_PATH = System.getProperty("user.dir")
+			+ "/src/test/resources/testdata/teufik.jpg";
 
 	public static final String XL_DATA_FILEPATH = System.getProperty("user.dir")
 			+ "/src/test/resources/testdata/HrmsTestData.xlsx";

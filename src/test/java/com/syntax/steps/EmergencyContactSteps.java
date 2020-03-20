@@ -15,7 +15,7 @@ public class EmergencyContactSteps extends CommonMethods{
 	
 	@Given("I am logged into HRMS")
 	public void i_am_logged_into_HRMS() {
-	    login.login("Admin", "Syntax@123");
+	    login.login("Admin", "Hum@nhrm123");
 	}
 
 	@Given("I navigated to Add Employee Page")

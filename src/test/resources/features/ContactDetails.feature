@@ -10,7 +10,7 @@ Feature: ContactDetails
       | Alex      | Small    |
     And I navigated to Emplooye list
 
-  @regression
+  @smoke
   Scenario: Changes employee Contact Details
     When I entered an exist employee name
       | FirstName | LastName |

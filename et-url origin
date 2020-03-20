@@ -1,0 +1,365 @@
+[33mcommit aea095bf6b97631205fe6dcbeafa4b980a5583a1[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Hilal <lilyaiden77@gmail.com>
+Date:   Thu Mar 19 22:25:31 2020 -0500
+
+    my last commit
+
+[33mcommit de7c3e89fb783d6ba05dbec902237772ca25a395[m
+Merge: 0c258b1 1e697fb
+Author: hvanli <56898481+hvanli@users.noreply.github.com>
+Date:   Tue Feb 11 18:43:26 2020 -0600
+
+    Merge pull request #5 from SyntaxTechnologies/workbranch
+    
+    Pom added
+
+[33mcommit 1e697fb58f7f5a7e52a22218a0319cf3e0f564af[m
+Author: nbaktir <nurgulbaktir@gmail.com>
+Date:   Tue Feb 11 12:43:49 2020 -0600
+
+    Modification on data table
+
+[33mcommit 9b85e665f04e92f1040f89da7a8b0b63f1862999[m
+Author: hvanli <hvanli894@gmail.com>
+Date:   Tue Feb 11 11:29:08 2020 -0600
+
+    final version of the HOPE project
+
+[33mcommit 3a379293bc94314536de14e89bfb179a513405d5[m
+Author: Hilal <lilyaiden77@gmail.com>
+Date:   Tue Feb 11 10:45:35 2020 -0600
+
+    last version
+
+[33mcommit 5ebbd845ea2a679046aadf856e92ec573dd7de79[m
+Author: jansetgk <janyz3940@gmail.com>
+Date:   Tue Feb 11 10:42:11 2020 -0600
+
+    last changes
+
+[33mcommit d7df12fd61f9ac142db7bafaa924f50586275c9b[m
+Author: hvanli <hvanli894@gmail.com>
+Date:   Tue Feb 11 10:39:31 2020 -0600
+
+    Hasan Final Version
+
+[33mcommit 3bc8dfd121e33bf25b1adf1b7d4a79647731c9e6[m
+Author: ozlemdeveci <ozlemelisss@gmail.com>
+Date:   Mon Feb 10 22:48:31 2020 -0600
+
+    thats really last uptade
+
+[33mcommit 98e12c0ca23cc3a56e96fb48b784a837759effa1[m
+Author: ozlemdeveci <ozlemelisss@gmail.com>
+Date:   Mon Feb 10 22:24:09 2020 -0600
+
+    Iste bu son degisiklik
+
+[33mcommit 97a14a4406b26f27b9c9c7424f1a78060613aebf[m
+Author: ozlemdeveci <ozlemelisss@gmail.com>
+Date:   Mon Feb 10 22:15:38 2020 -0600
+
+    last push
+
+[33mcommit 364712c94561323d7172c09f8d952759d292fd5e[m
+Author: ozlemdeveci <ozlemelisss@gmail.com>
+Date:   Mon Feb 10 22:13:23 2020 -0600
+
+    ozlem degisiklik
+
+[33mcommit fc65846d3e4838ba17066f8fa97fe43140b0086f[m
+Author: Hilal <lilyaiden77@gmail.com>
+Date:   Mon Feb 10 22:06:05 2020 -0600
+
+    contact deails are added
+
+[33mcommit 5f4dd7d0cc3a717a7f76b4caa6d3252fb5587016[m
+Author: tevfikgk <tevfikgk38@gmail.com>
+Date:   Mon Feb 10 21:01:18 2020 -0700
+
+    after qualfication
+
+[33mcommit e0c2563d64d4d2ad2ff6142f1a2c2ce2d5a99565[m
+Merge: ba0da73 bf291dd
+Author: tevfikgk <tevfikgk38@gmail.com>
+Date:   Mon Feb 10 20:59:07 2020 -0700
+
+    Merge branch 'workbranch' of https://github.com/SyntaxTechnologies/HOPE into workbranch
+
+[33mcommit bf291dd7f29c1ae025096de52eb9b0ecd287ed67[m
+Author: hvanli <hvanli894@gmail.com>
+Date:   Mon Feb 10 21:56:40 2020 -0600
+
+    htv modification
+
+[33mcommit a2b36a78f339de9c51ef1d44b9a3296c17f9ba0e[m
+Merge: 2b6c61a a529bca
+Author: jansetgk <janyz3940@gmail.com>
+Date:   Mon Feb 10 21:47:45 2020 -0600
+
+     added
+
+[33mcommit ba0da731994bfac8c61c8137c85296fdca92a4ac[m
+Merge: 71d78d6 a529bca
+Author: tevfikgk <tevfikgk38@gmail.com>
+Date:   Mon Feb 10 20:43:41 2020 -0700
+
+    Merge branch 'workbranch' of https://github.com/SyntaxTechnologies/HOPE into workbranch
+
+[33mcommit 71d78d65f6a568ccc73b1340b85f4c9c70df547a[m
+Author: tevfikgk <tevfikgk38@gmail.com>
+Date:   Mon Feb 10 20:40:47 2020 -0700
+
+    config
+
+[33mcommit 2b6c61aa4aba65ecf18f07796c9fdf1a32c29bfe[m
+Author: jansetgk <janyz3940@gmail.com>
+Date:   Mon Feb 10 21:40:46 2020 -0600
+
+    salary pages are added
+
+[33mcommit a529bca60af6cc9050cb67cc042467657bc6abd1[m
+Author: nbaktir <nurgulbaktir@gmail.com>
+Date:   Mon Feb 10 21:36:58 2020 -0600
+
+    Personal details added
+
+[33mcommit 75d79996a5b859ddcc1338ae4b09584c349c9188[m
+Author: zeynepsteel <lilyfoster1987@gmail.com>
+Date:   Mon Feb 10 12:57:52 2020 -0600
+
+    Employee Add and Delete steps modified
+
+[33mcommit 3a5269172f2e4afbf5cfd1625250bbdb46cd3029[m
+Author: hvanli <hvanli894@gmail.com>
+Date:   Mon Feb 10 09:27:08 2020 -0600
+
+    Employee Add and Delete steps added
+
+[33mcommit ab60d4e221bd374398cc4435bfcc8313cc3b3d17[m
+Author: hvanli <hvanli894@gmail.com>
+Date:   Sun Feb 9 21:13:30 2020 -0600
+
+    AddEmpDependanr_Excel added
+
+[33mcommit 53e110ef84510d2b01b416d2f4d5234c286320d5[m
+Author: zeynepsteel <lilyfoster1987@gmail.com>
+Date:   Sun Feb 9 12:14:11 2020 -0600
+
+    Runner and dependent page modified
+
+[33mcommit d0170b1a24deb6a28c692e26826720f05f26168d[m
+Author: zeynepsteel <lilyfoster1987@gmail.com>
+Date:   Sun Feb 9 10:14:51 2020 -0600
+
+    testimage folder and Dependent feature added
+
+[33mcommit ef3e8fcda51c530407b2f09d7b17697e5581f9ce[m
+Author: nbaktir <nurgulbaktir@gmail.com>
+Date:   Sat Feb 8 23:02:14 2020 -0600
+
+    Drivers added for mac
+
+[33mcommit d3096b2a4f4553cb26132187e484d82e7826a024[m
+Author: hvanli <hvanli894@gmail.com>
+Date:   Sat Feb 8 22:54:21 2020 -0600
+
+    final modifications before running tests
+
+[33mcommit d1d7addff1922555779bb9c0611c684eb8236687[m
+Author: hvanli <hvanli894@gmail.com>
+Date:   Sat Feb 8 21:59:36 2020 -0600
+
+    several modifications
+
+[33mcommit 2979771111c1b6bc31f052b471808674cade57cb[m
+Author: hvanli <hvanli894@gmail.com>
+Date:   Sat Feb 8 21:53:48 2020 -0600
+
+    regression runner modified
+
+[33mcommit bc8387985dc30df1cae7fe2745bff55e5f33e045[m
+Author: zeynepsteel <lilyfoster1987@gmail.com>
+Date:   Sat Feb 8 21:51:30 2020 -0600
+
+    page elements and initialize page added
+
+[33mcommit c5dde1fa7c4130e10ec66ef2208f4167af01180e[m
+Merge: 47a1367 6979d41
+Author: zeynepsteel <lilyfoster1987@gmail.com>
+Date:   Sat Feb 8 21:50:34 2020 -0600
+
+    Merge branch 'workbranch' of https://github.com/SyntaxTechnologies/HOPE into workbranch
+
+[33mcommit 6979d41e745ef334ef647a5bdb619eb9517b6ff2[m
+Author: ozlemdeveci <ozlemelisss@gmail.com>
+Date:   Sat Feb 8 21:48:20 2020 -0600
+
+    excelutility edit
+
+[33mcommit 4f9864480f6fb5705f8d859ef528164ce6b83044[m
+Merge: 4ae189d 481a1e2
+Author: ozlemdeveci <ozlemelisss@gmail.com>
+Date:   Sat Feb 8 21:47:21 2020 -0600
+
+    Merge branch 'workbranch' of https://github.com/SyntaxTechnologies/HOPE into workbranch
+
+[33mcommit 481a1e2bf42783460f6e9da6a803b4a16faa7e2c[m
+Author: hvanli <hvanli894@gmail.com>
+Date:   Sat Feb 8 21:43:53 2020 -0600
+
+    runners and hooks class added
+
+[33mcommit 9a537d48b232aabca0c529d176fcee36032dbb9b[m
+Author: Hilal <lilyaiden77@gmail.com>
+Date:   Sat Feb 8 21:41:07 2020 -0600
+
+    constants added
+
+[33mcommit 159b06bae54af868b61474f2c50152abb3593f3a[m
+Author: nbaktir <nurgulbaktir@gmail.com>
+Date:   Sat Feb 8 21:35:31 2020 -0600
+
+    Base Class added
+
+[33mcommit 4ae189dda160a398288f690f4cf7393f52737fdf[m
+Merge: d5ebc5c a96f18e
+Author: ozlemdeveci <ozlemelisss@gmail.com>
+Date:   Sat Feb 8 21:26:54 2020 -0600
+
+    Merge branch 'workbranch' of https://github.com/SyntaxTechnologies/HOPE into workbranch
+
+[33mcommit 47a13673361be04bf56bd8427f4ba8995cb1375b[m
+Merge: 185525f 0c258b1
+Author: zeynepsteel <lilyfoster1987@gmail.com>
+Date:   Sat Feb 8 21:24:31 2020 -0600
+
+    Merge https://github.com/SyntaxTechnologies/HOPE into workbranch
+
+[33mcommit d5ebc5c1c5add1783303f7b6299daa4675eadb16[m
+Merge: 3ad4ea4 69ef8a9
+Author: ozlemdeveci <ozlemelisss@gmail.com>
+Date:   Sat Feb 8 21:22:09 2020 -0600
+
+    Merge branch 'workbranch' of https://github.com/SyntaxTechnologies/HOPE into workbranch
+
+[33mcommit a96f18e135bb4abc7dc8c0d3e9e34eae4edaf0f6[m
+Merge: 4b1b0da 69ef8a9
+Author: Hilal <lilyaiden77@gmail.com>
+Date:   Sat Feb 8 21:21:53 2020 -0600
+
+    config utility and  property file editedMerge branch 'workbranch' of https://github.com/SyntaxTechnologies/HOPE into workbranch
+
+[33mcommit 4b1b0da331b010cffe38b7ca6c83d8d818fa02a4[m
+Author: Hilal <lilyaiden77@gmail.com>
+Date:   Sat Feb 8 21:20:10 2020 -0600
+
+    configsreader and property file added
+
+[33mcommit 3ad4ea43a6ea6cb68ec1b2d6604140be0c233016[m
+Author: ozlemdeveci <ozlemelisss@gmail.com>
+Date:   Sat Feb 8 21:20:07 2020 -0600
+
+    Excelutilies added
+
+[33mcommit 69ef8a9f2340a49955cc1ff1525dd282beb7c15d[m
+Author: jansetgk <janyz3940@gmail.com>
+Date:   Sat Feb 8 21:14:13 2020 -0600
+
+    common methods added
+
+[33mcommit 185525f7a0dfff242808e53ee95eda59fe62cf7a[m
+Author: Hilal <lilyaiden77@gmail.com>
+Date:   Sat Feb 8 15:02:55 2020 -0600
+
+    Pom modified
+
+[33mcommit 386385279ba6ea84fe6f79b0d516c36c68b1f78f[m
+Author: zeynepsteel <lilyfoster1987@gmail.com>
+Date:   Sat Feb 8 14:35:35 2020 -0600
+
+    Pom added
+
+[33mcommit 0c258b1e9ca098a5eb187b51ee293bd54ce984c3[m[33m ([m[1;32mcheckout[m[33m)[m
+Merge: b9f27bc 72ebde8
+Author: hvanli <56898481+hvanli@users.noreply.github.com>
+Date:   Sat Feb 8 14:11:55 2020 -0600
+
+    Merge pull request #4 from SyntaxTechnologies/workbranch
+    
+    Workbranch
+
+[33mcommit 72ebde87e93af31e7188eab56915c1441196abf1[m
+Author: hvanli <hvanli894@gmail.com>
+Date:   Sat Feb 8 14:10:30 2020 -0600
+
+    resources folder updated
+
+[33mcommit 7d773ccb987c93d44a5777b7c5796249b2c274a2[m
+Author: hvanli <hvanli894@gmail.com>
+Date:   Sat Feb 8 14:06:37 2020 -0600
+
+    step package added
+
+[33mcommit b9f27bc935627c530eaeb02f1750744a0f64ee65[m
+Merge: 36ce23d e232313
+Author: hvanli <56898481+hvanli@users.noreply.github.com>
+Date:   Sat Feb 8 13:58:28 2020 -0600
+
+    Merge pull request #3 from SyntaxTechnologies/workbranch
+    
+    resources added
+
+[33mcommit e2323139b1a33611b976a27c47fe0fd7e0972833[m
+Author: hvanli <hvanli894@gmail.com>
+Date:   Sat Feb 8 13:50:40 2020 -0600
+
+    resources added
+
+[33mcommit 36ce23ddb427abe2b6da6a9ea14382b2d4fa96be[m
+Merge: b92d251 67c303f
+Author: hvanli <56898481+hvanli@users.noreply.github.com>
+Date:   Sat Feb 8 12:51:22 2020 -0600
+
+    Merge pull request #2 from SyntaxTechnologies/workbranch
+    
+    Workbranch
+
+[33mcommit 67c303f811fddb3f6cae821d2fc9fd3d67145dbb[m
+Author: nbaktir <nurgulbaktir@gmail.com>
+Date:   Sat Feb 8 12:03:55 2020 -0600
+
+    Login page elements added
+
+[33mcommit a9a2b8eea0cbffdd762ce5892db6ea9d5076a430[m
+Author: nbaktir <nurgulbaktir@gmail.com>
+Date:   Sat Feb 8 11:52:45 2020 -0600
+
+    Packages added
+
+[33mcommit 58ccf0f312760e348f04faf229618aaba70c4392[m
+Merge: 8b230d8 b92d251
+Author: Syntax <instructor@syntaxtechs.com>
+Date:   Sat Feb 8 09:58:47 2020 -0500
+
+    Merge pull request #1 from SyntaxTechnologies/master
+    
+    Group project Start point commit
+
+[33mcommit b92d251e79ba2f7b734f6ecb4128160972d1d7b7[m
+Author: SyntaxTechnologies <instructor@syntaxtechs.com>
+Date:   Sat Feb 8 09:41:30 2020 -0500
+
+    Group project Start point commit
+
+[33mcommit 8b230d81a8ef93661d08073bd8eb9c987ee86fb1[m
+Author: SyntaxTechnologies <instructor@syntaxtechs.com>
+Date:   Thu Feb 6 20:06:30 2020 -0500
+
+    HRMS Project Skeleton
+
+[33mcommit 9000456c654a5ea237a80e40ff16268e3ba69dd4[m
+Author: SyntaxTechnologies <instructor@syntaxtechs.com>
+Date:   Thu Feb 6 19:45:42 2020 -0500
+
+    Test Push to workbranch
